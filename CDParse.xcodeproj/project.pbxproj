@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930BA90D163D244F0025953C /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 930BA90C163D244F0025953C /* Apple.m */; };
 		93AA123D163B5C0300CC3025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA123C163B5C0300CC3025 /* UIKit.framework */; };
 		93AA123F163B5C0300CC3025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA123E163B5C0300CC3025 /* Foundation.framework */; };
 		93AA1241163B5C0300CC3025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1240163B5C0300CC3025 /* CoreGraphics.framework */; };
@@ -19,10 +20,27 @@
 		93AA1256163B5C0300CC3025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA1255163B5C0300CC3025 /* ViewController.m */; };
 		93AA1259163B5C0300CC3025 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AA1257163B5C0300CC3025 /* ViewController_iPhone.xib */; };
 		93AA125C163B5C0300CC3025 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AA125A163B5C0300CC3025 /* ViewController_iPad.xib */; };
-		93AA126A163B5C5C00CC3025 /* PFObject+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA1269163B5C5C00CC3025 /* PFObject+More.m */; };
+		93AA126C163B5D5F00CC3025 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA126B163B5D5F00CC3025 /* Parse.framework */; };
+		93AA127C163B5DD400CC3025 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1271163B5DD400CC3025 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		93AA127D163B5DD400CC3025 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1272163B5DD400CC3025 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		93AA127E163B5DD400CC3025 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1273163B5DD400CC3025 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		93AA127F163B5DD400CC3025 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1274163B5DD400CC3025 /* AudioToolbox.framework */; };
+		93AA1280163B5DD400CC3025 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1275163B5DD400CC3025 /* CFNetwork.framework */; };
+		93AA1281163B5DD400CC3025 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1276163B5DD400CC3025 /* libsqlite3.dylib */; };
+		93AA1282163B5DD400CC3025 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1277163B5DD400CC3025 /* libz.1.1.3.dylib */; };
+		93AA1283163B5DD400CC3025 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1278163B5DD400CC3025 /* MobileCoreServices.framework */; };
+		93AA1284163B5DD400CC3025 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA1279163B5DD400CC3025 /* QuartzCore.framework */; };
+		93AA1285163B5DD400CC3025 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA127A163B5DD400CC3025 /* Security.framework */; };
+		93AA1286163B5DD400CC3025 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AA127B163B5DD400CC3025 /* SystemConfiguration.framework */; };
+		93AA128F163B5E7000CC3025 /* PFObject+CDParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA128E163B5E7000CC3025 /* PFObject+CDParse.m */; };
+		93AA1292163B600D00CC3025 /* PFQuery+CDParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA1291163B600D00CC3025 /* PFQuery+CDParse.m */; };
+		93AA1296163B664700CC3025 /* Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA1295163B664700CC3025 /* Banana.m */; };
+		93AA12A1163B715800CC3025 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA12A0163B715800CC3025 /* Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930BA90B163D244F0025953C /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		930BA90C163D244F0025953C /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 		93AA1238163B5C0300CC3025 /* CDParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AA123C163B5C0300CC3025 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93AA123E163B5C0300CC3025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,8 +58,26 @@
 		93AA1255163B5C0300CC3025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93AA1258163B5C0300CC3025 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		93AA125B163B5C0300CC3025 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		93AA1268163B5C5C00CC3025 /* PFObject+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFObject+More.h"; sourceTree = "<group>"; };
-		93AA1269163B5C5C00CC3025 /* PFObject+More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PFObject+More.m"; sourceTree = "<group>"; };
+		93AA126B163B5D5F00CC3025 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		93AA1271163B5DD400CC3025 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		93AA1272163B5DD400CC3025 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		93AA1273163B5DD400CC3025 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		93AA1274163B5DD400CC3025 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		93AA1275163B5DD400CC3025 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		93AA1276163B5DD400CC3025 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		93AA1277163B5DD400CC3025 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		93AA1278163B5DD400CC3025 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		93AA1279163B5DD400CC3025 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93AA127A163B5DD400CC3025 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		93AA127B163B5DD400CC3025 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		93AA128D163B5E7000CC3025 /* PFObject+CDParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PFObject+CDParse.h"; path = "CDParse/Categories/PFObject+CDParse.h"; sourceTree = "<group>"; };
+		93AA128E163B5E7000CC3025 /* PFObject+CDParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PFObject+CDParse.m"; path = "CDParse/Categories/PFObject+CDParse.m"; sourceTree = "<group>"; };
+		93AA1290163B600D00CC3025 /* PFQuery+CDParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFQuery+CDParse.h"; sourceTree = "<group>"; };
+		93AA1291163B600D00CC3025 /* PFQuery+CDParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PFQuery+CDParse.m"; sourceTree = "<group>"; };
+		93AA1294163B664700CC3025 /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
+		93AA1295163B664700CC3025 /* Banana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banana.m; sourceTree = "<group>"; };
+		93AA129F163B715800CC3025 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		93AA12A0163B715800CC3025 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,18 @@
 				93AA123D163B5C0300CC3025 /* UIKit.framework in Frameworks */,
 				93AA123F163B5C0300CC3025 /* Foundation.framework in Frameworks */,
 				93AA1241163B5C0300CC3025 /* CoreGraphics.framework in Frameworks */,
+				93AA126C163B5D5F00CC3025 /* Parse.framework in Frameworks */,
+				93AA127C163B5DD400CC3025 /* AdSupport.framework in Frameworks */,
+				93AA127D163B5DD400CC3025 /* Social.framework in Frameworks */,
+				93AA127E163B5DD400CC3025 /* Accounts.framework in Frameworks */,
+				93AA127F163B5DD400CC3025 /* AudioToolbox.framework in Frameworks */,
+				93AA1280163B5DD400CC3025 /* CFNetwork.framework in Frameworks */,
+				93AA1281163B5DD400CC3025 /* libsqlite3.dylib in Frameworks */,
+				93AA1282163B5DD400CC3025 /* libz.1.1.3.dylib in Frameworks */,
+				93AA1283163B5DD400CC3025 /* MobileCoreServices.framework in Frameworks */,
+				93AA1284163B5DD400CC3025 /* QuartzCore.framework in Frameworks */,
+				93AA1285163B5DD400CC3025 /* Security.framework in Frameworks */,
+				93AA1286163B5DD400CC3025 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +126,18 @@
 		93AA123B163B5C0300CC3025 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93AA1271163B5DD400CC3025 /* AdSupport.framework */,
+				93AA1272163B5DD400CC3025 /* Social.framework */,
+				93AA1273163B5DD400CC3025 /* Accounts.framework */,
+				93AA1274163B5DD400CC3025 /* AudioToolbox.framework */,
+				93AA1275163B5DD400CC3025 /* CFNetwork.framework */,
+				93AA1276163B5DD400CC3025 /* libsqlite3.dylib */,
+				93AA1277163B5DD400CC3025 /* libz.1.1.3.dylib */,
+				93AA1278163B5DD400CC3025 /* MobileCoreServices.framework */,
+				93AA1279163B5DD400CC3025 /* QuartzCore.framework */,
+				93AA127A163B5DD400CC3025 /* Security.framework */,
+				93AA127B163B5DD400CC3025 /* SystemConfiguration.framework */,
+				93AA126B163B5D5F00CC3025 /* Parse.framework */,
 				93AA123C163B5C0300CC3025 /* UIKit.framework */,
 				93AA123E163B5C0300CC3025 /* Foundation.framework */,
 				93AA1240163B5C0300CC3025 /* CoreGraphics.framework */,
@@ -88,7 +148,8 @@
 		93AA1242163B5C0300CC3025 /* CDParse */ = {
 			isa = PBXGroup;
 			children = (
-				93AA1266163B5C5200CC3025 /* Categories */,
+				93AA128B163B5E5E00CC3025 /* CDParse */,
+				93AA1293163B663B00CC3025 /* Models */,
 				93AA124B163B5C0300CC3025 /* AppDelegate.h */,
 				93AA124C163B5C0300CC3025 /* AppDelegate.m */,
 				93AA1254163B5C0300CC3025 /* ViewController.h */,
@@ -114,13 +175,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		93AA1266163B5C5200CC3025 /* Categories */ = {
+		93AA128B163B5E5E00CC3025 /* CDParse */ = {
 			isa = PBXGroup;
 			children = (
-				93AA1268163B5C5C00CC3025 /* PFObject+More.h */,
-				93AA1269163B5C5C00CC3025 /* PFObject+More.m */,
+				93AA128C163B5E6500CC3025 /* Categories */,
+			);
+			name = CDParse;
+			sourceTree = "<group>";
+		};
+		93AA128C163B5E6500CC3025 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				93AA128D163B5E7000CC3025 /* PFObject+CDParse.h */,
+				93AA128E163B5E7000CC3025 /* PFObject+CDParse.m */,
+				93AA1290163B600D00CC3025 /* PFQuery+CDParse.h */,
+				93AA1291163B600D00CC3025 /* PFQuery+CDParse.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		93AA1293163B663B00CC3025 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93AA1294163B664700CC3025 /* Banana.h */,
+				93AA1295163B664700CC3025 /* Banana.m */,
+				930BA90B163D244F0025953C /* Apple.h */,
+				930BA90C163D244F0025953C /* Apple.m */,
+				93AA129F163B715800CC3025 /* Color.h */,
+				93AA12A0163B715800CC3025 /* Color.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +277,11 @@
 				93AA1249163B5C0300CC3025 /* main.m in Sources */,
 				93AA124D163B5C0300CC3025 /* AppDelegate.m in Sources */,
 				93AA1256163B5C0300CC3025 /* ViewController.m in Sources */,
-				93AA126A163B5C5C00CC3025 /* PFObject+More.m in Sources */,
+				93AA128F163B5E7000CC3025 /* PFObject+CDParse.m in Sources */,
+				93AA1292163B600D00CC3025 /* PFQuery+CDParse.m in Sources */,
+				93AA1296163B664700CC3025 /* Banana.m in Sources */,
+				93AA12A1163B715800CC3025 /* Color.m in Sources */,
+				930BA90D163D244F0025953C /* Apple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +369,10 @@
 		93AA1260163B5C0300CC3025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CDParse/CDParse-Prefix.pch";
 				INFOPLIST_FILE = "CDParse/CDParse-Info.plist";
@@ -292,6 +384,10 @@
 		93AA1261163B5C0300CC3025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CDParse/CDParse-Prefix.pch";
 				INFOPLIST_FILE = "CDParse/CDParse-Info.plist";
