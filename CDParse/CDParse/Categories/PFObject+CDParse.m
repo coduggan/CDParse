@@ -139,4 +139,14 @@ static void savingIMP(id self, SEL _cmd, ...)
     return [(NSNumber *)objc_getAssociatedObject(self, &savingKey) boolValue];
 }
 
++(PFQuery*)query
+{
+    if([self.class isSubclassOfClass:PFObject.class])
+    {
+        return [PFQuery queryWithClassName:NSStringFromClass(self.class)];
+    }
+    
+    return nil;
+}
+
 @end

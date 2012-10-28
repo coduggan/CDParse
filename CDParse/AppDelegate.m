@@ -16,7 +16,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Parse setApplicationId:@"tUwHb5zKQYvSaPL2OTccIQsUtWqGCcSuhaa1bveD" clientKey:@"p5f18euOIjN4NrbPEQ9asjnMXcg9ptIJlaI8v2be"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

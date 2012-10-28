@@ -15,4 +15,6 @@
 
 -(BOOL)saving;
 
++(PFQuery*)query;
+
 @end
